@@ -1,0 +1,133 @@
+.navOrcamento{
+  width: 100%;
+  height: 24rem;
+  background: linear-gradient(rgba(17, 17, 17, 0.412),rgba(20,20,20,1)),url(../assets/drink6.jpg);
+  background-position:center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navOrcamento h1{
+  font-size: 5rem;
+  letter-spacing: 1px;
+  font-style: italic;
+  color:  rgb(183, 143, 63);
+  }
+
+.servicos{
+  height: 40rem;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  background-color: rgb(46, 44, 44);
+  padding-left:4rem ;
+}
+.carousel {
+  width: 50%;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+ margin-bottom: -8px;
+}
+
+.mainImage img{
+   width: 80%;
+  height: 30rem;
+ position: relative;
+  margin: 1rem 1rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 10px 10px 10px rgba(118, 123, 58, 0.661);;
+}
+.thumbnailImages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+.thumbnailImages img {
+  width: 150px;
+  height: 105px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin: 1rem 1rem 0;
+  border-radius: 0.5rem;
+ 
+}
+.thumbnailImages img:first-child {
+margin-left: 2rem;
+ 
+}
+
+.thumbnailImages img:hover {
+  transform: scale(1.1);
+}
+.servicoContent{
+  width: 40%;
+  margin-top: 1rem;
+}
+.servicoContent h3{
+  color:  rgb(183, 143, 63);
+  font-size: 1rem;
+}
+.servicoContent h2{
+  color: wheat;
+  font-weight: bold;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid white;
+  width: 75%;
+}
+.servicoContent p{
+  color: rgb(157, 151, 151);
+  font-size: 1rem;
+  font-weight: 500;
+  width: 75%;
+  padding-top: 0.5rem;
+}
+ .form form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+
+}
+.select{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+label{
+  font-size: 1.2rem;
+  color:  rgb(183, 143, 63);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+select{
+  padding: 0.8rem 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 0.6rem;
+}
+.form a{
+  width: 60%;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0.6rem;
+  background-color:  rgb(183, 143, 63);
+  color:  rgb(0, 0, 0);
+  transition: 0.6s;
+  opacity: 8;
+}
+.form a:hover{
+  border: 1px solid rgb(183, 143, 63);
+  opacity: 10;
+  color:  rgb(0, 0, 0);
+}
